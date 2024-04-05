@@ -16,7 +16,7 @@ for name in filenames:
         # new name is base directory, plus the removed string
         new_name = name.replace(remove_string, "")
         # rename the file
-        rename("e:\\Videos\\Tom Clancy's Rainbow Six  Siege\\" + name, "e:\\Videos\\Tom Clancy's Rainbow Six  Siege\\" + new_name)
+        rename("e:\\Videos\\Tom Clancy's Rainbow Six  Siege\\" + name, "e:\\Videos\\Tom Clancy's Rainbow Six  Siege\\" + new_name.replace(".DVR"))
         count = count + 1
 
 # print a count of files renamed
